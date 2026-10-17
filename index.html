@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emmanuella Afolabi — Web &amp; App Developer</title>
+  <meta name="description" content="Emmanuella Afolabi — Web and App Developer building clean, reliable digital products." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="#home" class="brand">Emmanuella<span class="dot">.</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Web &amp; App Developer</p>
+          <h1>Building clean,<br><span class="accent">reliable</span> digital products.</h1>
+          <p class="lead">I design and develop web and mobile applications with a focus on clarity, performance, and thoughtful user experience.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+            <a href="#about" class="btn btn-ghost">Learn more</a>
+          </div>
+        </div>
+        <div class="hero-photo reveal">
+          <div class="photo-frame">
+            <img src="assets/headshot.jpg" alt="Portrait of Emmanuella Afolabi" loading="eager" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="section-inner">
+        <p class="eyebrow reveal">About</p>
+        <h2 class="reveal">A developer focused on <span class="accent">craft</span> and clarity.</h2>
+        <div class="about-grid">
+          <p class="reveal">I'm Emmanuella Afolabi, a web and app developer passionate about turning ideas into functional, well-structured products. I care about the details — from clean code and accessible interfaces to experiences that feel effortless to use.</p>
+          <p class="reveal">My work spans front-end development, application logic, and the small decisions that make software reliable. I approach every project with curiosity and a commitment to doing it right the first time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="section-inner">
+        <p class="eyebrow reveal">Contact</p>
+        <h2 class="reveal">Let's build something <span class="accent">worthwhile</span>.</h2>
+        <p class="lead reveal">Have a project, role, or idea in mind? I'd be glad to hear from you.</p>
+        <ul class="contact-list">
+          <li class="reveal"><span class="label">Email</span><a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li class="reveal"><span class="label">GitHub</span><a href="https://github.com/" target="_blank" rel="noopener">github.com/emmanuella</a></li>
+          <li class="reveal"><span class="label">LinkedIn</span><a href="https://linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/emmanuella</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Emmanuella Afolabi. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
